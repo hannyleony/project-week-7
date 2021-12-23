@@ -45,7 +45,7 @@ header {
   .icon {
     font-size: 30px;
     text-align: center;
-    margin-left: 10px;
+    margin-left: 20px;
   }
   .sun {
     color: #fdd14f;
@@ -106,9 +106,18 @@ header {
   }
   .row.days {
     font-size: 15px;
+    text-align: center;
   }
   
   #description {
     text-transform: capitalize;
   }
   
+  .row.temp {
+    font-size: 11px;
+    text-align: center;
+}
+
+.min{
+    opacity: 0.6;
+}
