@@ -97,14 +97,14 @@ header {
     right: 30px;
   }
   
-  img {
+  .float-left {
     width: 80px;
     position: fixed;
     top: 176px;
     left: 670px;
     right: 20px;
   }
-  .row.days {
+  .weather-forecast-date {
     font-size: 15px;
     text-align: center;
   }
@@ -113,11 +113,16 @@ header {
     text-transform: capitalize;
   }
   
-  .row.temp {
+  .weather-forecast-temperatures {
     font-size: 11px;
     text-align: center;
 }
 
-.min{
+.forecast-temperature-min{
     opacity: 0.6;
+}
+
+.forecast-pic{
+    display: block;
+    margin: auto;
 }
